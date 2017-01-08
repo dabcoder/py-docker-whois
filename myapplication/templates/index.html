@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <body>
-    <h1>Domain name</h1>
+    <h1>Domain name -> location</h1>
     <h4>Not working with .io and .fr, possibly others</h4>
     <br>
     <div>
 	    <form action="/hostlocation" method="POST">
-	        <input type="text" placeholder="Enter a domaine name here..." name="domain" required>
+	        <input type="text" placeholder="Enter a domain name here..." name="domain" required>
 	        <button type="submit" name="my-form" value="Submit">Search</button>
+	    </form>
+    </div>
+    <h1>Domain name -> IP address</h1>
+    <br>
+    <div>
+	    <form action="/iphostname" method="POST">
+	        <input type="text" placeholder="Enter a domain name here..." name="domain_ip" required>
+	        <button type="submit" name="my-form-ip" value="Submit">Search</button>
 	    </form>
     </div>
 </body>

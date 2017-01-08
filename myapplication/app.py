@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 import whois
+import socket
 
 app = Flask(__name__)
 
@@ -18,5 +19,15 @@ def my_form_hostlocation():
 
 	return render_template('location.html', domain_data=domain_name, location_data=location)
 
+@app.route("/iphostname", methods=['GET','POST'])
+def my_form_ipaddress():
+	if request.method == 'GET':
+		return redirect(url_for('my_form'))
+	domain_name = request.form['domain_ip'].lstrip()
+	ip_address = socket.gethostbyname(domain_name)
+
+	return render_template('ipadress.html', domain_data=domain_name, ip_data=ip_address)
+
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()

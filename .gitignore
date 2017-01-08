@@ -1,5 +1,5 @@
 myapplication/venv/
-myapplication/*.pyc
+myapplication/app.pyc
 fabfile.py
 fabfile.pyc
 remove_build_container.sh
