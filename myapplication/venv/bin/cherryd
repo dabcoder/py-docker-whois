@@ -1,4 +1,4 @@
-#!/home/ubuntu/myapplication/venv/bin/python
+#!/Users/davidbouchare/Documents/Python/testDockerflask/myapplication/venv/bin/python
 
 import cherrypy.daemon
 
