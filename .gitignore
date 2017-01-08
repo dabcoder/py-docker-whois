@@ -1,3 +1,6 @@
 myapplication/venv/
 myapplication/*.pyc
-
+fabfile.py
+fabfile.pyc
+remove_build_container.sh
+fabenv/
