@@ -1,3 +1,5 @@
 flask
 cherrypy
 python-whois
+flask_testing
+blinker
