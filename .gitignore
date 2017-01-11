@@ -1,6 +1,4 @@
-myapplication/venv/
-myapplication/app.pyc
-fabfile.py
-fabfile.pyc
-remove_build_container.sh
-fabenv/
+venv/lib/python2.7/site-packages/pip
+app.pyc
+../fabfile.py
+../fabfile.pyc
