@@ -1,4 +1,4 @@
-venv/lib/python2.7/site-packages/pip
+../myapplication/venv/
 app.pyc
-../fabfile.py
-../fabfile.pyc
+fabfile.py
+fabfile.pyc
