@@ -1,4 +1,4 @@
-../myapplication/venv/
-app.pyc
+myapplication/venv/
+myapplication/app.pyc
 fabfile.py
 fabfile.pyc
